@@ -178,7 +178,6 @@ Contiene las ventanas del programa:
 
 ## Integrantes
 
-Completar con los datos del grupo:
 
 ```text
 Nombre: Martin Cerpa Diaz
