@@ -1,0 +1,4 @@
+@echo off
+echo Ejecutando el sistema...
+java --enable-native-access=ALL-UNNAMED -cp "bin;lib\sqlite-jdbc-3.45.3.0.jar;lib\slf4j-api-2.0.13.jar;lib\slf4j-simple-2.0.13.jar" Main
+pause

@@ -1,0 +1,10 @@
+@echo off
+echo Compilando el sistema...
+if not exist bin mkdir bin
+javac -cp "lib\sqlite-jdbc-3.45.3.0.jar;lib\slf4j-api-2.0.13.jar;lib\slf4j-simple-2.0.13.jar" -d bin src\backend\*.java src\frontend\*.java src\Main.java
+if %errorlevel% equ 0 (
+    echo Compilacion exitosa.
+) else (
+    echo Error de compilacion.
+)
+pause
